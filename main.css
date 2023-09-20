@@ -1,0 +1,25 @@
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid black;
+    box-shadow: 0 0 0 2px;
+    font-size: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 230px;
+    margin: auto;
+}
+#myContainer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
